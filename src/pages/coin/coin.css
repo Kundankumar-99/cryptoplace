@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.coinlayout {
+  width: 70%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.coin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+}
+
+.coin img {
+  width: 100px;
+}
+.coin p {
+  font-size: 25px;
+  font-weight: 700;
+}
+.Coindatatable {
+  padding-top: 50px;
+}
+.Coindatatable ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 10px 0px;
+}

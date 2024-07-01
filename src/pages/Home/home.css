@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Home-layout {
+  width: 800px;
+  margin: auto;
+  padding: 50px 0;
+}
+form {
+  width: 500px;
+  background-color: white;
+  padding: 10px 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  margin-right: 5px;
+  width: 375px;
+  color: #000;
+}
+
+input:focus {
+  color: #000;
+  outline: none;
+}
+
+button {
+  background-color: #7927ff;
+  padding: 5px 18px;
+  border-radius: 5px;
+}
+.table-grid {
+  background: linear-gradient(rgba(84, 3, 255, 0.15), rgba(105, 2, 153, 0.15));
+  display: block;
+  width: 780px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+.table-content {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+  padding: 15px 15px;
+
+  align-items: center;
+}
+
+.coins {
+  display: flex;
+  align-items: center;
+}
+.coins img {
+  width: 50px;
+}
+.table-grid .text-green {
+  color: green;
+}
+.table-grid .text-red {
+  color: red;
+}
+
+/* Meda Query  */
+
+@media screen and (max-width: 780px) {
+  .table-grid {
+    display: block;
+    width: 600px;
+  }
+  .Home-layout {
+    width: 500px;
+    margin: auto;
+    padding: 50px 0;
+    font-size: small;
+  }
+  form {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Home-layout {
+    width: 400px;
+    margin: auto;
+    padding: 50px 0;
+  }
+  form {
+    width: 400px;
+  }
+  .table-grid {
+    display: block;
+    width: 550px;
+    margin: 0px auto;
+    border-radius: 5px;
+  }
+  .navbar ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+    .Home-layout {
+      width: 300px;    
+    }
+    .Home-layout h1 {
+        font-size: xx-large;    
+      }
+    form {
+      width: 300px;
+    }
+    .navbar{
+        gap: 20px;
+    }
+    .table-content {
+        grid-template-columns: 0.5fr 1fr 1fr;
+    }
+    .table-grid {
+        display: block;
+        width: 350px;
+        margin: 0px auto;
+        border-radius: 5px;
+      }
+    .table-content .market-cap{
+        display: none;
+    }
+    .table-content .Change_24H{
+        display: none;
+    }
+  }

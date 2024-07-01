@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-right select{
+    height: fit-content;
+    
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: 2px solid white;
+    color: #fff;
+}
+.navbar-right option{
+    background-color: #0b004e;
+}
