@@ -21,11 +21,15 @@ input {
   margin-right: 5px;
   width: 375px;
   color: #000;
+  
 }
 
 input:focus {
   color: #000;
   outline: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 
 button {
@@ -99,31 +103,31 @@ button {
   }
 }
 @media screen and (max-width: 400px) {
-    .Home-layout {
-      width: 300px;    
-    }
-    .Home-layout h1 {
-        font-size: xx-large;    
-      }
-    form {
-      width: 300px;
-    }
-    .navbar{
-        gap: 20px;
-    }
-    .table-content {
-        grid-template-columns: 0.5fr 1fr 1fr;
-    }
-    .table-grid {
-        display: block;
-        width: 350px;
-        margin: 0px auto;
-        border-radius: 5px;
-      }
-    .table-content .market-cap{
-        display: none;
-    }
-    .table-content .Change_24H{
-        display: none;
-    }
+  .Home-layout {
+    width: 300px;
   }
+  .Home-layout h1 {
+    font-size: xx-large;
+  }
+  form {
+    width: 300px;
+  }
+  .navbar {
+    gap: 20px;
+  }
+  .table-content {
+    grid-template-columns: 0.5fr 1fr 1fr;
+  }
+  .table-grid {
+    display: block;
+    width: 350px;
+    margin: 0px auto;
+    border-radius: 5px;
+  }
+  .table-content .market-cap {
+    display: none;
+  }
+  .table-content .Change_24H {
+    display: none;
+  }
+}
