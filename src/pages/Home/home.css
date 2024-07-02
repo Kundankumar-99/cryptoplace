@@ -21,15 +21,16 @@ input {
   margin-right: 5px;
   width: 375px;
   color: #000;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   
 }
 
 input:focus {
   color: #000;
   outline: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
+  
 }
 
 button {
